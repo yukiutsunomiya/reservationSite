@@ -192,7 +192,10 @@ class MainController extends Controller
                     'content' => $content //送信したいデータ
                 )
             );
+<<<<<<< HEAD
             /*
+=======
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
             $res = file_get_contents($url, false, stream_context_create($context));
             var_dump($res); //string(29) "{"status":200,"message":"ok"}"
             //ここまでLINE通知

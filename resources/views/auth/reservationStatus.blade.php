@@ -11,7 +11,11 @@
                     &reservationSurName={{$reservation->surName}}&reservationName={{$reservation->name}}&reservationHiraganaSurName={{$reservation->hiraganaSurName}}
                     &reservationHiraganaName={{$reservation->hiraganaName}}&reservationMobilePhone={{$reservation->mobilePhone}}&reservationEmail={{$reservation->email}}
                     &reservationStore_url={{$reservation->store_url}}">
+<<<<<<< HEAD
                     番号：{{$reservation-> id}} &emsp; 名前：{{$reservation->surName}}{{$reservation-> name}} &emsp; 電話番号：{{$reservation-> mobilePhone}} &emsp; 日付：{{$reservation-> date}}
+=======
+                    番号：{{$reservation-> id}} &emsp; 名前：{{$reservation-> name}} &emsp; 電話番号：{{$reservation-> mobilePhone}} &emsp; 日付：{{$reservation-> date}}
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
                     &emsp; 日時：{{$reservation-> time}}
                 </a><br>
             </div>

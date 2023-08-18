@@ -86,6 +86,9 @@ class RegisterController extends Controller
             'address' => $data['address'],
         ]);
     }
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
 }

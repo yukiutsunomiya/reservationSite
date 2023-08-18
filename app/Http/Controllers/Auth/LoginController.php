@@ -6,8 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 
+=======
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
 class LoginController extends Controller
 {
     /*
@@ -39,9 +42,12 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+<<<<<<< HEAD
 
     protected function loggedOut(Request $request)
     {
         return redirect('/auth/top'); // loginページの場合
     }
+=======
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
 }

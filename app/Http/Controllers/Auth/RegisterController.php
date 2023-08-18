@@ -9,8 +9,11 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
+<<<<<<< HEAD
 use Auth;
 
+=======
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
 class RegisterController extends Controller
 {
     /*
@@ -31,6 +34,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
 
      /* 作成 
     protected $redirectTo = RouteServiceProvider::HOME;
@@ -48,6 +52,10 @@ class RegisterController extends Controller
     }
 
 
+=======
+    protected $redirectTo = RouteServiceProvider::HOME;
+
+>>>>>>> 829ad9acd21827fe0059d1b2ce520ccd81978a82
     /**
      * Create a new controller instance.
      *
